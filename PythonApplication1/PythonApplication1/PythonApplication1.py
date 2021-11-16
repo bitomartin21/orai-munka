@@ -45,3 +45,4 @@ for x in szamok:
     if x>max:
         max=x
 print(max)
+print(max(szamok))
