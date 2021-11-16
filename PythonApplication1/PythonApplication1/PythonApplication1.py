@@ -1,3 +1,8 @@
-print("a git müködik")
-print("változás")
-print("még egy")
+szamok=[3,4,2,7,8,1,9,7,3]
+
+#összegzés tétele
+osszeg=0
+for x in szamok:
+    osszeg=osszeg+x
+    print(osszeg)
+print(osszeg)
