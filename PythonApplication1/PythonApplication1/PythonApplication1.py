@@ -6,3 +6,11 @@ for x in szamok:
     osszeg=osszeg+x
     print(osszeg)
 print(osszeg)
+print (sum(szamok))
+
+#eldöntés tétele
+vane =False
+for x in szamok:
+    if (x==1):
+        vane=True
+print(vane)
